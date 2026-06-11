@@ -1,0 +1,12 @@
+# 虚拟环境
+fluxev_env/
+# Python缓存
+__pycache__/
+*.pyc
+# 系统垃圾文件
+Thumbs.db
+.DS_Store
+# 大数据集、输出图片（代码可复现，无需上传）
+exp_result/*.npy
+exp_result/*.png
+OmniAnomaly-master/
