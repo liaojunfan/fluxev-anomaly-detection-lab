@@ -1,12 +1,18 @@
-# 虚拟环境
+# Python虚拟环境（禁止上传）
 fluxev_env/
-# Python缓存
+
+# Python编译缓存文件
 __pycache__/
 *.pyc
-# 系统垃圾文件
+*.pyo
+*.pyd
+
+# 代码运行自动生成的结果文件（本地运行可复现，不用上传）
+exp_result/
+
+# Windows系统垃圾文件
 Thumbs.db
 .DS_Store
-# 大数据集、输出图片（代码可复现，无需上传）
-exp_result/*.npy
-exp_result/*.png
+
+# 无关旧项目文件夹
 OmniAnomaly-master/
